@@ -19,6 +19,7 @@ def print_anagrams(word_source):
 
 word_source = load_words()
 print_anagrams(word_source)
-    
+
+if __name__ == '__main__':
     anagrams = find_anagrams(words)
     print ("Anagram count:", len(anagrams), "\n")
